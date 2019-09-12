@@ -29,7 +29,7 @@
 }
 
 - (void) stopStreamRadio {
-    [self.radioPlayer pause]
+    [self.radioPlayer pause];
     self.radioPlayer = nil;
 }
 
