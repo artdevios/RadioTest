@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88C2EE1D232A2B650029218F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE1C232A2B650029218F /* AppDelegate.m */; };
+		88C2EE28232A2B660029218F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88C2EE26232A2B660029218F /* LaunchScreen.storyboard */; };
+		88C2EE2B232A2B660029218F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE2A232A2B660029218F /* main.m */; };
+		88C2EE36232A2D890029218F /* MainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE35232A2D890029218F /* MainScreenViewController.m */; };
+		88C2EE3E232A30950029218F /* ButtonImageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE3D232A30950029218F /* ButtonImageConstants.m */; };
+		88C2EE40232A328E0029218F /* Buttons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C2EE3F232A328E0029218F /* Buttons.xcassets */; };
+		88C2EE42232A32C70029218F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88C2EE41232A32C70029218F /* Images.xcassets */; };
+		88C2EE45232A334E0029218F /* ImageConstantsRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE44232A334E0029218F /* ImageConstantsRoot.m */; };
+		88C2EE48232A33DB0029218F /* ImagesConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE47232A33DB0029218F /* ImagesConstants.m */; };
+		88C2EE4C232A40730029218F /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE4B232A40730029218F /* PlayerViewController.m */; };
+		88C2EE50232A42310029218F /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE4F232A42310029218F /* UIView+Utility.m */; };
+		88C2EE52232A43810029218F /* Utilities.h in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE51232A43810029218F /* Utilities.h */; };
+		88C2EE5A232A77320029218F /* RadioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C2EE59232A77320029218F /* RadioPlayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		88C2EE18232A2B640029218F /* RadioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RadioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C2EE1B232A2B650029218F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88C2EE1C232A2B650029218F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88C2EE27232A2B660029218F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88C2EE29232A2B660029218F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C2EE2A232A2B660029218F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		88C2EE34232A2D890029218F /* MainScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainScreenViewController.h; sourceTree = "<group>"; };
+		88C2EE35232A2D890029218F /* MainScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainScreenViewController.m; sourceTree = "<group>"; };
+		88C2EE3C232A30950029218F /* ButtonImageConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonImageConstants.h; sourceTree = "<group>"; };
+		88C2EE3D232A30950029218F /* ButtonImageConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonImageConstants.m; sourceTree = "<group>"; };
+		88C2EE3F232A328E0029218F /* Buttons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Buttons.xcassets; sourceTree = "<group>"; };
+		88C2EE41232A32C70029218F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		88C2EE43232A333A0029218F /* ImageConstantsRoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageConstantsRoot.h; sourceTree = "<group>"; };
+		88C2EE44232A334E0029218F /* ImageConstantsRoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageConstantsRoot.m; sourceTree = "<group>"; };
+		88C2EE46232A33DB0029218F /* ImagesConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagesConstants.h; sourceTree = "<group>"; };
+		88C2EE47232A33DB0029218F /* ImagesConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagesConstants.m; sourceTree = "<group>"; };
+		88C2EE4A232A40730029218F /* PlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		88C2EE4B232A40730029218F /* PlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		88C2EE4E232A42310029218F /* UIView+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		88C2EE4F232A42310029218F /* UIView+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
+		88C2EE51232A43810029218F /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		88C2EE58232A77320029218F /* RadioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioPlayer.h; sourceTree = "<group>"; };
+		88C2EE59232A77320029218F /* RadioPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioPlayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88C2EE15232A2B640029218F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88C2EE0F232A2B640029218F = {
+			isa = PBXGroup;
+			children = (
+				88C2EE1A232A2B640029218F /* RadioTest */,
+				88C2EE19232A2B640029218F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88C2EE19232A2B640029218F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE18232A2B640029218F /* RadioTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C2EE1A232A2B640029218F /* RadioTest */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE1B232A2B650029218F /* AppDelegate.h */,
+				88C2EE1C232A2B650029218F /* AppDelegate.m */,
+				88C2EE33232A2D4B0029218F /* ViewControllers */,
+				88C2EE56232A76E00029218F /* Services */,
+				88C2EE37232A2D9C0029218F /* Extensions */,
+				88C2EE31232A2D100029218F /* Assets */,
+				88C2EE32232A2D290029218F /* Helpers */,
+			);
+			path = RadioTest;
+			sourceTree = "<group>";
+		};
+		88C2EE31232A2D100029218F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE3F232A328E0029218F /* Buttons.xcassets */,
+				88C2EE41232A32C70029218F /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		88C2EE32232A2D290029218F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE4D232A41EA0029218F /* Extensions */,
+				88C2EE39232A2FE20029218F /* Constants */,
+				88C2EE26232A2B660029218F /* LaunchScreen.storyboard */,
+				88C2EE29232A2B660029218F /* Info.plist */,
+				88C2EE2A232A2B660029218F /* main.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88C2EE33232A2D4B0029218F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE38232A2FAB0029218F /* MainScreenViewController */,
+				88C2EE49232A40540029218F /* PlayerViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88C2EE37232A2D9C0029218F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88C2EE38232A2FAB0029218F /* MainScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE34232A2D890029218F /* MainScreenViewController.h */,
+				88C2EE35232A2D890029218F /* MainScreenViewController.m */,
+			);
+			path = MainScreenViewController;
+			sourceTree = "<group>";
+		};
+		88C2EE39232A2FE20029218F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE43232A333A0029218F /* ImageConstantsRoot.h */,
+				88C2EE44232A334E0029218F /* ImageConstantsRoot.m */,
+				88C2EE3C232A30950029218F /* ButtonImageConstants.h */,
+				88C2EE3D232A30950029218F /* ButtonImageConstants.m */,
+				88C2EE46232A33DB0029218F /* ImagesConstants.h */,
+				88C2EE47232A33DB0029218F /* ImagesConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		88C2EE49232A40540029218F /* PlayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE4A232A40730029218F /* PlayerViewController.h */,
+				88C2EE4B232A40730029218F /* PlayerViewController.m */,
+			);
+			path = PlayerViewController;
+			sourceTree = "<group>";
+		};
+		88C2EE4D232A41EA0029218F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE51232A43810029218F /* Utilities.h */,
+				88C2EE4E232A42310029218F /* UIView+Utility.h */,
+				88C2EE4F232A42310029218F /* UIView+Utility.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88C2EE56232A76E00029218F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE57232A77100029218F /* Radio Player */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		88C2EE57232A77100029218F /* Radio Player */ = {
+			isa = PBXGroup;
+			children = (
+				88C2EE58232A77320029218F /* RadioPlayer.h */,
+				88C2EE59232A77320029218F /* RadioPlayer.m */,
+			);
+			path = "Radio Player";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88C2EE17232A2B640029218F /* RadioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C2EE2E232A2B660029218F /* Build configuration list for PBXNativeTarget "RadioTest" */;
+			buildPhases = (
+				88C2EE14232A2B640029218F /* Sources */,
+				88C2EE15232A2B640029218F /* Frameworks */,
+				88C2EE16232A2B640029218F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RadioTest;
+			productName = RadioTest;
+			productReference = 88C2EE18232A2B640029218F /* RadioTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88C2EE10232A2B640029218F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = idev;
+				TargetAttributes = {
+					88C2EE17232A2B640029218F = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 88C2EE13232A2B640029218F /* Build configuration list for PBXProject "RadioTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88C2EE0F232A2B640029218F;
+			productRefGroup = 88C2EE19232A2B640029218F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88C2EE17232A2B640029218F /* RadioTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88C2EE16232A2B640029218F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2EE42232A32C70029218F /* Images.xcassets in Resources */,
+				88C2EE40232A328E0029218F /* Buttons.xcassets in Resources */,
+				88C2EE28232A2B660029218F /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88C2EE14232A2B640029218F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C2EE4C232A40730029218F /* PlayerViewController.m in Sources */,
+				88C2EE36232A2D890029218F /* MainScreenViewController.m in Sources */,
+				88C2EE3E232A30950029218F /* ButtonImageConstants.m in Sources */,
+				88C2EE52232A43810029218F /* Utilities.h in Sources */,
+				88C2EE50232A42310029218F /* UIView+Utility.m in Sources */,
+				88C2EE2B232A2B660029218F /* main.m in Sources */,
+				88C2EE5A232A77320029218F /* RadioPlayer.m in Sources */,
+				88C2EE1D232A2B650029218F /* AppDelegate.m in Sources */,
+				88C2EE45232A334E0029218F /* ImageConstantsRoot.m in Sources */,
+				88C2EE48232A33DB0029218F /* ImagesConstants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88C2EE26232A2B660029218F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88C2EE27232A2B660029218F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88C2EE2C232A2B660029218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		88C2EE2D232A2B660029218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88C2EE2F232A2B660029218F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH3XGD28XC;
+				INFOPLIST_FILE = "$(SRCROOT)/RadioTest/Helpers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RadioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C2EE30232A2B660029218F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QH3XGD28XC;
+				INFOPLIST_FILE = "$(SRCROOT)/RadioTest/Helpers/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.RadioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88C2EE13232A2B640029218F /* Build configuration list for PBXProject "RadioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C2EE2C232A2B660029218F /* Debug */,
+				88C2EE2D232A2B660029218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C2EE2E232A2B660029218F /* Build configuration list for PBXNativeTarget "RadioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C2EE2F232A2B660029218F /* Debug */,
+				88C2EE30232A2B660029218F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88C2EE10232A2B640029218F /* Project object */;
+}
