@@ -23,7 +23,6 @@ static CGFloat kScaleValue = 1.5;
 @interface PlayerViewController ()
 
 @property (strong, nonatomic) UIImageView *backgroundImageView;
-@property (strong, nonatomic) UIViewPropertyAnimator *animator;
 @property (strong, nonatomic) RadioPlayer *radioPlayer;
 
 @end
@@ -35,6 +34,7 @@ static CGFloat kScaleValue = 1.5;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self subscribeToNotifications];
     [self initializeProperties];
     [self buildView];
 }
@@ -70,24 +70,36 @@ static CGFloat kScaleValue = 1.5;
     NSTimeInterval animationDuration = 5.0;
     
     __weak typeof(self) weakSelf = self;
-    __block UIViewPropertyAnimator *animator = [[UIViewPropertyAnimator alloc] initWithDuration:animationDuration
-                                                                                  curve:UIViewAnimationCurveLinear animations:^{
-                                                                                      weakSelf.backgroundImageView.transform = CGAffineTransformMakeScale(kScaleValue, kScaleValue);
-                                                                                  }];
-    self.animator = animator;
-    [animator addCompletion:^(UIViewAnimatingPosition finalPosition) {
-        UIViewPropertyAnimator *secondAnimator = [[UIViewPropertyAnimator alloc] initWithDuration:animationDuration
-                                                                                      curve:UIViewAnimationCurveLinear animations:^{
-                                                                                          weakSelf.backgroundImageView.transform = CGAffineTransformIdentity;
-                                                                                      }];
-        [secondAnimator addCompletion:^(UIViewAnimatingPosition finalPosition) {
-            [self startAnimation];
-        }];
-        [secondAnimator startAnimation];
+    
+    [UIView animateWithDuration:animationDuration
+                          delay:0.0
+                        options:UIViewAnimationOptionAutoreverse | UIViewAnimationOptionRepeat
+                     animations:^{
+                         weakSelf.backgroundImageView.transform = CGAffineTransformMakeScale(kScaleValue, kScaleValue);
+                     } completion:nil];
+}
 
+#pragma mark - Notifications
 
-    }];
-    [animator startAnimation];
+- (void) subscribeToNotifications {
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(willResignActive:)
+                                                 name:UIApplicationWillResignActiveNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(didBecomeActive:)
+                                                 name:UIApplicationDidBecomeActiveNotification
+                                               object:nil];
+}
+
+- (void) willResignActive: (NSNotification *) notification {
+    [self.backgroundImageView stopAnimating];
+    self.backgroundImageView.transform = CGAffineTransformIdentity;
+}
+
+- (void) didBecomeActive: (NSNotification *) notification {
+    [self startAnimation];
 }
 
 @end
